@@ -1,5 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/example/public_html/
-    - /bin/cp -R images $DEPLOYPATH
+    - export DEPLOYPATH=/script1.py/
+    - /static/ -R images $DEPLOYPATH
+    - /templates -R images $DEPLOYPATH
