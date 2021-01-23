@@ -4,3 +4,7 @@ deployment:
     - export DEPLOYPATH=/home/l574820/public_html
     - /bin/cp -R static $DEPLOYPATH
     - /bin/cp -R templates $DEPLOYPATH
+    - /bin/cp Procfile $DEPLOYPATH
+    - /bin/cp requirements.txt $DEPLOYPATH
+    - /bin/cp runtime.txt $DEPLOYPATH
+    - /bin/cp script1.py $DEPLOYPATH
