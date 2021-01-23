@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/l574820/public_html
-    - /bin/cp script1.py $DEPLOYPATH
+    - export DEPLOYPATH=/home/l574820/repositories/Listannagh-Website/script1.py/
+    - /bin/cp index.html $DEPLOYPATH
