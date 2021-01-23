@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/l574820/public_html
-    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp script1.py $DEPLOYPATH
